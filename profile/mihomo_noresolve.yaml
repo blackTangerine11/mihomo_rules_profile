@@ -880,66 +880,66 @@ rule-providers:
 rules:
 
   # LAN
-  - RULE-SET,lan,DIRECT
+  - RULE-SET,lan,DIRECT,no-resolve
 
   # Steam
-  - RULE-SET,steam_cn,DIRECT
-  - RULE-SET,steam,Steam
+  - RULE-SET,steam_cn,DIRECT,no-resolve
+  - RULE-SET,steam,Steam,no-resolve
 
   # Epic
-  - RULE-SET,epic,Epic
+  - RULE-SET,epic,Epic,no-resolve
 
   # Telegram
-  - RULE-SET,telegram,Telegram
+  - RULE-SET,telegram,Telegram,no-resolve
 
   # Spotify
-  - RULE-SET,spotify,Spotify
+  - RULE-SET,spotify,Spotify,no-resolve
 
   # GitHub
-  - RULE-SET,github,GitHub
+  - RULE-SET,github,GitHub,no-resolve
 
   # PikPak
-  - RULE-SET,pikpak,Pikpak
+  - RULE-SET,pikpak,Pikpak,no-resolve
 
   # Discord
-  - RULE-SET,discord,Discord
+  - RULE-SET,discord,Discord,no-resolve
 
   # TikTok
-  - RULE-SET,tiktok,Tiktok
+  - RULE-SET,tiktok,Tiktok,no-resolve
 
   # Pornhub
-  - RULE-SET,pornhub,Pornhub
+  - RULE-SET,pornhub,Pornhub,no-resolve
 
   # Gemini
-  - RULE-SET,gemini,Google
+  - RULE-SET,gemini,Google,no-resolve
 
   # OpenAI
-  - RULE-SET,openai,OpenAI
+  - RULE-SET,openai,OpenAI,no-resolve
 
   # YouTube
-  - RULE-SET,youtube,YouTube
+  - RULE-SET,youtube,YouTube,no-resolve
 
   # Netflix
-  - RULE-SET,netflix,Netflix
+  - RULE-SET,netflix,Netflix,no-resolve
 
   # Streaming
-  - RULE-SET,stream,Streaming
+  - RULE-SET,stream,Streaming,no-resolve
 
   # Google
-  - RULE-SET,google,Google
+  - RULE-SET,google,Google,no-resolve
 
   # Apple
-  - RULE-SET,apple,Apple
+  - RULE-SET,apple,Apple,no-resolve
 
   # Microsoft
-  - RULE-SET,microsoft,Microsoft
+  - RULE-SET,microsoft,Microsoft,no-resolve
 
   # Cloudflare
-  - RULE-SET,cloudflare,Cloudflare
+  - RULE-SET,cloudflare,Cloudflare,no-resolve
 
   # ChinaDIRECT
   - RULE-SET,chinadirectsite,DIRECT
-  - RULE-SET,chinadirectip,DIRECT
-  - RULE-SET,chinadirectadd,DIRECT
+  - RULE-SET,chinadirectip,DIRECT,no-resolve
+  - RULE-SET,chinadirectadd,DIRECT,no-resolve
 
   - MATCH,🌐未匹配
